@@ -3,7 +3,7 @@ name: Qv2ray build matrix - cmake
 on:
   push:
     branches-ignore:
-      - l10n_dev
+      - dev
   release:
     types: [prereleased]
 
